@@ -1,0 +1,7 @@
+<environment_context>
+  <cwd>/home/user/ai-full-stack-it-access-requests</cwd>
+  <shell>bash</shell>
+  <current_date>2026-11-11</current_date>
+  <timezone>Etc/UTC</timezone>
+  <filesystem><workspace_roots><root>/home/user/ai-full-stack-it-access-requests</root></workspace_roots><permission_profile type="managed"><file_system type="restricted"><entry access="read"><special>:root</special></entry><entry access="write"><path>/home/user/ai-full-stack-it-access-requests</path></entry><entry access="write"><special>:slash_tmp</special></entry><entry access="write"><special>:tmpdir</special></entry><entry access="read"><path>/home/user/ai-full-stack-it-access-requests/.git</path></entry><entry access="read"><path>/home/user/ai-full-stack-it-access-requests/.agents</path></entry><entry access="read"><path>/home/user/ai-full-stack-it-access-requests/.codex</path></entry><entry access="read"><path>/home/user/ai-full-stack-it-access-requests/.aws</path></entry></file_system></permission_profile></filesystem>
+</environment_context>
