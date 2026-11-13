@@ -1,0 +1,1 @@
+please use SKILLS.md , from docs folder use prereqites.md , research-to-spec.md, plan-with-test-plan.md, requirements.md and also office-policy.md files , and evaluate CHALLENGE.md , and provide me implemnetion paln
