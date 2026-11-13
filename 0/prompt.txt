@@ -1,0 +1,1 @@
+is my git config setup properly
