@@ -1,0 +1,66 @@
+Use the plan-from-spec skill on planning/spec.md. Write planning/plan.md only; write no code
+   and no tests yet.
+
+---
+
+git add planning/spec.md
+
+---
+
+git commit -m "Spec: the brief as numbered requirements"
+
+---
+
+what are you working
+
+---
+
+what need to be corrected ? pelase expaln
+
+---
+
+please fix these planning/plan.md file
+
+---
+
+$plan-from-spec
+
+---
+
+Implement the plan.
+
+---
+
+pleae use plan.md and spec.md , implemnet the application and write the test cases and validate the applciation.
+
+---
+
+for each step, first write the test the plan names, run it and show it failing, then stop;
+     after you commit the failing test (`Test first: <step>`), write the code until it passes, then
+     stop again so you commit it (`Step <n>: <step>`);
+
+---
+
+every test uses mock responses saved under `tests/mock_responses/`, and no test calls the real
+     model or reads `API_KEY`;
+
+---
+
+the expected values in each test are the expected facts of the test plan, not values copied
+     from a run;
+
+---
+
+after each step, run the whole test suite and stop if anything fails.
+
+---
+
+please tell me about the applciation . can i run the applciation . Please provide me CLI , service and web interface tht operatort start intake, inspect the results.
+
+---
+
+finish all remainf steps
+
+---
+
+commit my changes to github
