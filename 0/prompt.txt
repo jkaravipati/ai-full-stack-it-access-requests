@@ -1,0 +1,1 @@
+analyze the application , identify test framework. run all available tests. show me the test results.
