@@ -1,0 +1,1 @@
+please analyze challenge.md , readme.md files and provide me simple in steps what is the requirement , how and what is implemented and what is the outcome.
