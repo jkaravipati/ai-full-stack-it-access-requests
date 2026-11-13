@@ -1,0 +1,12 @@
+<user_shell_command>
+<command>
+whcih git
+</command>
+<result>
+Exit code: 127
+Duration: 0.0158 seconds
+Output:
+/bin/bash: line 1: whcih: command not found
+
+</result>
+</user_shell_command>
