@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-010.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-010\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Ben Carter\", \"team\": \"Operations\", \"system\": \"Ledger\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"compare the daily reconciliation report to the entries that the operations folks see\", \"start_date\": \"2026-10-27\", \"end_date\": null, \"manager\": \"Elena Park\", \"supporting_quotes\": [\"compare the daily reconciliation report to the entries that the operations folks see\", \"I'm Ben Carter in Operations.\", \"new access request (IT-010), date of submission is 2026-10-22\", \"read access to Ledger (production) starting 2026-10-27\", \"My manager is Elena Park.\", \"Haven't quite fixed on the end date.\"], \"issues\": [\"end_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"end_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+        }
+      ]
+    }
+  ]
+}

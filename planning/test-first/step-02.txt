@@ -1,0 +1,23 @@
+test_T02_schema_required_types_enums_and_arrays (tests.test_02_validation.ValidationTests.test_T02_schema_required_types_enums_and_arrays) ... ERROR
+test_T03_bytes_filename_metadata_decoding_and_invalid_inputs (tests.test_02_validation.ValidationTests.test_T03_bytes_filename_metadata_decoding_and_invalid_inputs) ... ERROR
+
+======================================================================
+ERROR: test_T02_schema_required_types_enums_and_arrays (tests.test_02_validation.ValidationTests.test_T02_schema_required_types_enums_and_arrays)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_02_validation.py", line 9, in test_T02_schema_required_types_enums_and_arrays
+    from access_intake.validation import validate_extraction
+ModuleNotFoundError: No module named 'access_intake.validation'
+
+======================================================================
+ERROR: test_T03_bytes_filename_metadata_decoding_and_invalid_inputs (tests.test_02_validation.ValidationTests.test_T03_bytes_filename_metadata_decoding_and_invalid_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_02_validation.py", line 38, in test_T03_bytes_filename_metadata_decoding_and_invalid_inputs
+    from access_intake.validation import load_source, validate_extraction
+ModuleNotFoundError: No module named 'access_intake.validation'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (errors=2)

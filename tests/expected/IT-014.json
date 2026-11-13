@@ -1,0 +1,45 @@
+{
+  "document_id": "IT-014.json",
+  "extraction": {
+    "request_id": "IT-014",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Lucas Brown",
+    "team": "Sales Operations",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "I'm giving a demo of the new territory report for sales leads.",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-02",
+    "manager": "Priya Shah",
+    "supporting_quotes": [
+      "I'm giving a demo of the new territory report for sales leads.",
+      "IT-014. 2026-10-22 request. Lucas Brown in Sales Operations.",
+      "New read access for Atlas in staging. Start date 2026-11-05. End date 2026-11-02. Manager is Priya Shah."
+    ],
+    "issues": [
+      "start_date: invalid date range."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "start_date",
+      "code": "invalid_date_range",
+      "supporting_quotes": [
+        "Start date 2026-11-05. End date 2026-11-02."
+      ]
+    }
+  ],
+  "source_evidence": "| E14 / IT-014.json | request_id IT-014; kind new; requester Lucas Brown; team Sales Operations; system Atlas; environment staging; permission read; start_date 2026-11-05; end_date 2026-11-02; manager Priya Shah; purpose “I'm giving a demo of the new territory report for sales leads.”; reversed-range issue; route N without silently swapping dates. | “IT-014. 2026-10-22 request. Lucas Brown in Sales Operations.”; “New read access for Atlas in staging. Start date 2026-11-05. End date 2026-11-02. Manager is Priya Shah.”; quoted purpose; rule 3: “A start_date after end_date is also a clarification issue.” |",
+  "purpose_facts": [
+    "I'm giving a demo of the new territory report for sales leads."
+  ],
+  "source_message": "IT-014. 2026-10-22 request. Lucas Brown in Sales Operations. New read access for Atlas in staging. Start date 2026-11-05. End date 2026-11-02. Manager is Priya Shah. I'm giving a demo of the new territory report for sales leads. Trying to match up the sample territories with the handover notes. Also want to make sure I understand the columns for the demo. I just copied above dates from my planning sheet. This email should be the request record.",
+  "source_sha256": "8f2ce7407f230ea93d334947f9fd577ef7656f5deb25c5d28b62e5930ce592a1",
+  "required_evidence_terms": []
+}

@@ -1,0 +1,54 @@
+{
+  "document_id": "IT-004.json",
+  "extraction": {
+    "request_id": "IT-004",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Theo Malik",
+    "team": "Quality Engineering",
+    "system": "Atlas",
+    "environment": null,
+    "permission": "read",
+    "business_purpose": "I'm trying to understand why the nightly quality report shows different counts from the release checklist.",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-30",
+    "manager": "Nia Patel",
+    "supporting_quotes": [
+      "I'm trying to understand why the nightly quality report shows different counts from the release checklist.",
+      "IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering.",
+      "new read access in staging to Atlas from 2026-10-23 to 2026-10-30",
+      "Nia Patel is my manager.",
+      "This request is for the production environment."
+    ],
+    "issues": [
+      "environment: conflict."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "environment",
+      "code": "conflict",
+      "supporting_quotes": [
+        "I'm trying to understand why the nightly quality report shows different counts from the release checklist.",
+        "IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering.",
+        "new read access in staging to Atlas from 2026-10-23 to 2026-10-30",
+        "Nia Patel is my manager.",
+        "This request is for the production environment."
+      ]
+    }
+  ],
+  "source_evidence": "| E04 / IT-004.json | request_id IT-004; kind new; requester Theo Malik; team Quality Engineering; system Atlas; environment null; permission read; dates 2026-10-23 through 2026-10-30; manager Nia Patel; purpose “I'm trying to understand why the nightly quality report shows different counts from the release checklist.”; conflicting-environment issue with both alternatives quoted; route N. | “IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering.”; “new read access in staging to Atlas from 2026-10-23 to 2026-10-30”; “Nia Patel is my manager.”; “This request is for the production environment.”; quoted purpose; “contradictory statements without a correction remain unresolved.”; rule 3. |",
+  "purpose_facts": [
+    "I'm trying to understand why the nightly quality report shows different counts from the release checklist."
+  ],
+  "source_message": "IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering. Please grant me new read access in staging to Atlas from 2026-10-23 to 2026-10-30. Nia Patel is my manager. I'm trying to understand why the nightly quality report shows different counts from the release checklist. This request is for the production environment. I'm trying to look into the records for the failed run. I would like to send out a brief summary to the engineers responsible for the report. Dates are during the current release cycle and follow up after cycle completion.",
+  "source_sha256": "d5de0f00c5c118e499ed27c6f779139b1b4c483158adf5fd2d86f513b1f9654e",
+  "required_evidence_terms": [
+    "staging",
+    "production"
+  ]
+}

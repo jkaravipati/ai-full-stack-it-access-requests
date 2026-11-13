@@ -1,0 +1,48 @@
+test_T31_cli_intake_inspect_history_resume_and_export (tests.test_07_interfaces.InterfaceTests.test_T31_cli_intake_inspect_history_resume_and_export) ... FAIL
+test_T32_two_hundred_word_message (tests.test_07_interfaces.InterfaceTests.test_T32_two_hundred_word_message) ... ok
+test_T40_service_background_intake_upload_retry_and_history (tests.test_07_interfaces.InterfaceTests.test_T40_service_background_intake_upload_retry_and_history) ... ERROR
+test_T41_web_dashboard_is_served_and_untrusted_data_is_text (tests.test_07_interfaces.InterfaceTests.test_T41_web_dashboard_is_served_and_untrusted_data_is_text) ... ERROR
+
+======================================================================
+ERROR: test_T40_service_background_intake_upload_retry_and_history (tests.test_07_interfaces.InterfaceTests.test_T40_service_background_intake_upload_retry_and_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_07_interfaces.py", line 62, in test_T40_service_background_intake_upload_retry_and_history
+    from access_intake.service import OperatorApp
+ModuleNotFoundError: No module named 'access_intake.service'
+
+======================================================================
+ERROR: test_T41_web_dashboard_is_served_and_untrusted_data_is_text (tests.test_07_interfaces.InterfaceTests.test_T41_web_dashboard_is_served_and_untrusted_data_is_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_07_interfaces.py", line 87, in test_T41_web_dashboard_is_served_and_untrusted_data_is_text
+    from access_intake.service import OperatorApp
+ModuleNotFoundError: No module named 'access_intake.service'
+
+======================================================================
+FAIL: test_T31_cli_intake_inspect_history_resume_and_export (tests.test_07_interfaces.InterfaceTests.test_T31_cli_intake_inspect_history_resume_and_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_07_interfaces.py", line 32, in test_T31_cli_intake_inspect_history_resume_and_export
+    result=self.cli('intake',inputs,'--provider','mock','--mock-responses',ROOT/'tests/mock_responses',*common)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_07_interfaces.py", line 23, in cli
+    self.assertEqual(result.returncode,0,result.stderr+result.stdout)
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 142, in _get_module_details
+ImportError: No module named access_intake.__main__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+  File "<frozen runpy>", line 222, in run_module
+  File "<frozen runpy>", line 152, in _get_module_details
+ImportError: No module named access_intake.__main__; 'access_intake' is a package and cannot be directly executed
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.248s
+
+FAILED (failures=1, errors=2)

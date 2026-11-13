@@ -1,0 +1,78 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "access_intake",
+      "intake",
+      "materials/requests",
+      "--provider",
+      "mock"
+    ],
+    "exit_code": 0,
+    "summary": {
+      "count": 21,
+      "total": 21,
+      "review": 12,
+      "needs_information": 9,
+      "errors": 0,
+      "pending": 0
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "access_intake",
+      "intake",
+      "tests/inputs",
+      "--provider",
+      "mock"
+    ],
+    "exit_code": 0,
+    "summary": {
+      "count": 21,
+      "total": 21,
+      "review": 12,
+      "needs_information": 9,
+      "errors": 0,
+      "pending": 0
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "access_intake",
+      "export",
+      "--output",
+      "deliverables"
+    ],
+    "exit_code": 0,
+    "summary": {
+      "generation": 2,
+      "as_of": 1794598294.2231796,
+      "document_count": 21,
+      "origin": "snapshot of terminal current attempts; inspect the database for live pending work"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "access_intake",
+      "accuracy",
+      "--expected",
+      "tests/expected",
+      "--actual",
+      "deliverables/extractions.jsonl"
+    ],
+    "exit_code": 0,
+    "summary": {
+      "scalar_matches": 252,
+      "scalar_total": 252,
+      "route_matches": 63,
+      "route_total": 63
+    }
+  }
+]

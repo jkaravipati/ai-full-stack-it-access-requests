@@ -1,0 +1,209 @@
+test_T17_both_requests_use_supported_configuration_and_mock_provenance (tests.test_04_provider.ProviderTests.test_T17_both_requests_use_supported_configuration_and_mock_provenance) ... ERROR
+test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) ... 
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.invalid-json.json') ... ERROR
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.invalid-schema.json') ... ERROR
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.invalid-json.json') ... ERROR
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.invalid-schema.json') ... ERROR
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.bad-evidence.json') ... ERROR
+test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) ... 
+  test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=1, code='http_503') ... ERROR
+  test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=1, code='connection_error') ... ERROR
+  test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=6, code='http_503') ... ERROR
+  test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=6, code='connection_error') ... ERROR
+test_T20_refusal_never_becomes_extraction_or_harmless_verdict (tests.test_04_provider.ProviderTests.test_T20_refusal_never_becomes_extraction_or_harmless_verdict) ... ERROR
+test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) ... 
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='dict') ... ERROR
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='bytes') ... ERROR
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='TimeoutError') ... ERROR
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='dict') ... ERROR
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='bytes') ... ERROR
+  test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='TimeoutError') ... ERROR
+
+======================================================================
+ERROR: test_T17_both_requests_use_supported_configuration_and_mock_provenance (tests.test_04_provider.ProviderTests.test_T17_both_requests_use_supported_configuration_and_mock_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 60, in test_T17_both_requests_use_supported_configuration_and_mock_provenance
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.invalid-json.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 110, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(1, [saved(fixture)]), 'extraction')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.invalid-schema.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 110, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(1, [saved(fixture)]), 'extraction')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.invalid-json.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 115, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(6, [saved('it-006.override.json'), saved(fixture)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.invalid-schema.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 115, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(6, [saved('it-006.override.json'), saved(fixture)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-006.assessment.bad-evidence.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 115, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(6, [saved('it-006.override.json'), saved(fixture)]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=1, code='http_503')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 124, in test_T19_provider_errors_are_actionable_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [failure]), stage, code)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=1, code='connection_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 124, in test_T19_provider_errors_are_actionable_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [failure]), stage, code)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=6, code='http_503')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 124, in test_T19_provider_errors_are_actionable_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [failure]), stage, code)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T19_provider_errors_are_actionable_for_both_operations (tests.test_04_provider.ProviderTests.test_T19_provider_errors_are_actionable_for_both_operations) (number=6, code='connection_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 124, in test_T19_provider_errors_are_actionable_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [failure]), stage, code)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T20_refusal_never_becomes_extraction_or_harmless_verdict (tests.test_04_provider.ProviderTests.test_T20_refusal_never_becomes_extraction_or_harmless_verdict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 128, in test_T20_refusal_never_becomes_extraction_or_harmless_verdict
+    self.assert_error(self.run_message(1, [saved('openai.it-001.refusal.json')]),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='dict')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='bytes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=1, response_type='TimeoutError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='dict')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='bytes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+======================================================================
+ERROR: test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations (tests.test_04_provider.ProviderTests.test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations) (number=6, response_type='TimeoutError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 143, in test_T21_incomplete_cutoff_timeout_and_redaction_for_both_operations
+    self.assert_error(self.run_message(number, preceding + [response]), stage)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 46, in run_message
+    from access_intake.pipeline import process_message
+ModuleNotFoundError: No module named 'access_intake.pipeline'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (errors=17)

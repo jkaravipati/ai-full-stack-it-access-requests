@@ -1,0 +1,42 @@
+test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) ... 
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.error-envelope.json') ... FAIL
+  test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.missing-model.json') ... FAIL
+
+======================================================================
+FAIL: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.error-envelope.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 111, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(1, [saved(fixture)]), 'extraction')
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 50, in assert_error
+    self.assertEqual((result['status'], result['owner'], result['next_action']),
+AssertionError: Tuples differ: ('review', 'System Owner', 'review-request') != ('error', 'IT Service Desk', 'retry-extraction')
+
+First differing element 0:
+'review'
+'error'
+
+- ('review', 'System Owner', 'review-request')
++ ('error', 'IT Service Desk', 'retry-extraction')
+
+======================================================================
+FAIL: test_T18_invalid_output_and_invalid_assessment_fail_explicitly (tests.test_04_provider.ProviderTests.test_T18_invalid_output_and_invalid_assessment_fail_explicitly) (fixture='openai.it-001.missing-model.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 111, in test_T18_invalid_output_and_invalid_assessment_fail_explicitly
+    self.assert_error(self.run_message(1, [saved(fixture)]), 'extraction')
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_04_provider.py", line 50, in assert_error
+    self.assertEqual((result['status'], result['owner'], result['next_action']),
+AssertionError: Tuples differ: ('review', 'System Owner', 'review-request') != ('error', 'IT Service Desk', 'retry-extraction')
+
+First differing element 0:
+'review'
+'error'
+
+- ('review', 'System Owner', 'review-request')
++ ('error', 'IT Service Desk', 'retry-extraction')
+
+----------------------------------------------------------------------
+Ran 1 test in 0.069s
+
+FAILED (failures=2)

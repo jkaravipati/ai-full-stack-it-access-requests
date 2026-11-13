@@ -1,0 +1,44 @@
+{
+  "document_id": "IT-009.json",
+  "extraction": {
+    "request_id": "IT-009",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Isla Morgan",
+    "team": "Support",
+    "system": "Beacon",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "to go through example support cases before updating our troubleshooting guide",
+    "start_date": "2026-10-26",
+    "end_date": "2026-10-29",
+    "manager": null,
+    "supporting_quotes": [
+      "to go through example support cases before updating our troubleshooting guide",
+      "new staging read access for Beacon",
+      "Isla Morgan, Support. IT-009, submitted 2026-10-22.",
+      "from 2026-10-26 - 2026-10-29"
+    ],
+    "issues": [
+      "manager: missing."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "manager",
+      "code": "missing",
+      "supporting_quotes": []
+    }
+  ],
+  "source_evidence": "| E09 / IT-009.json | request_id IT-009; kind new; requester Isla Morgan; team Support; system Beacon; environment staging; permission read; dates 2026-10-26 through 2026-10-29; manager null with missing-manager issue; purpose “to go through example support cases before updating our troubleshooting guide”; route N. | “new staging read access for Beacon”; “Isla Morgan, Support. IT-009, submitted 2026-10-22.”; “from 2026-10-26 - 2026-10-29”; quoted purpose; no manager appears in the complete message; rule 3 explicitly lists manager as a required fact. |",
+  "purpose_facts": [
+    "to go through example support cases before updating our troubleshooting guide"
+  ],
+  "source_message": "Can you please grant me new staging read access for Beacon? Isla Morgan, Support. IT-009, submitted 2026-10-22. I need access to it from 2026-10-26 - 2026-10-29 to go through example support cases before updating our troubleshooting guide (we're missing a few steps new starters have been asking about). I've captured the questions in a document. I'd like to cross check with sample support cases first before I try writing the changes.",
+  "source_sha256": "8aa13b91d4d163827ed609b04c4cf40db2e66e4bbe33cd2211e22c1fa35378ad",
+  "required_evidence_terms": []
+}

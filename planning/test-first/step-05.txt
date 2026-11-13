@@ -1,0 +1,65 @@
+test_T22_current_envelopes_document_independence_and_batch_absence (tests.test_05_state.StateTests.test_T22_current_envelopes_document_independence_and_batch_absence) ... ERROR
+test_T23_unchanged_rerun_reuses_one_current_result (tests.test_05_state.StateTests.test_T23_unchanged_rerun_reuses_one_current_result) ... ERROR
+test_T24_changed_source_preserves_old_hash_and_history (tests.test_05_state.StateTests.test_T24_changed_source_preserves_old_hash_and_history) ... ERROR
+test_T25_failed_retry_after_success_retains_valid_result (tests.test_05_state.StateTests.test_T25_failed_retry_after_success_retains_valid_result) ... ERROR
+test_T26_configuration_policy_and_byte_changes_refresh (tests.test_05_state.StateTests.test_T26_configuration_policy_and_byte_changes_refresh) ... ERROR
+
+======================================================================
+ERROR: test_T22_current_envelopes_document_independence_and_batch_absence (tests.test_05_state.StateTests.test_T22_current_envelopes_document_independence_and_batch_absence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 13, in test_T22_current_envelopes_document_independence_and_batch_absence
+    e=self.engine(MockProvider(ROOT/'tests/mock_responses'))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 8, in engine
+    from access_intake.engine import Intake
+ModuleNotFoundError: No module named 'access_intake.engine'
+
+======================================================================
+ERROR: test_T23_unchanged_rerun_reuses_one_current_result (tests.test_05_state.StateTests.test_T23_unchanged_rerun_reuses_one_current_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 31, in test_T23_unchanged_rerun_reuses_one_current_result
+    e=self.engine(p)
+      ^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 8, in engine
+    from access_intake.engine import Intake
+ModuleNotFoundError: No module named 'access_intake.engine'
+
+======================================================================
+ERROR: test_T24_changed_source_preserves_old_hash_and_history (tests.test_05_state.StateTests.test_T24_changed_source_preserves_old_hash_and_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 42, in test_T24_changed_source_preserves_old_hash_and_history
+    e=self.engine(MockProvider(ROOT/'tests/mock_responses'))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 8, in engine
+    from access_intake.engine import Intake
+ModuleNotFoundError: No module named 'access_intake.engine'
+
+======================================================================
+ERROR: test_T25_failed_retry_after_success_retains_valid_result (tests.test_05_state.StateTests.test_T25_failed_retry_after_success_retains_valid_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 55, in test_T25_failed_retry_after_success_retains_valid_result
+    e=self.engine(p)
+      ^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 8, in engine
+    from access_intake.engine import Intake
+ModuleNotFoundError: No module named 'access_intake.engine'
+
+======================================================================
+ERROR: test_T26_configuration_policy_and_byte_changes_refresh (tests.test_05_state.StateTests.test_T26_configuration_policy_and_byte_changes_refresh)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 73, in test_T26_configuration_policy_and_byte_changes_refresh
+    e=self.engine(p)
+      ^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_05_state.py", line 8, in engine
+    from access_intake.engine import Intake
+ModuleNotFoundError: No module named 'access_intake.engine'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.114s
+
+FAILED (errors=5)

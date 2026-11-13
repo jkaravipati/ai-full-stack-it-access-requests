@@ -1,0 +1,37 @@
+{
+  "document_id": "IT-013.json",
+  "extraction": {
+    "request_id": "IT-013",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Emma Wilson",
+    "team": "Compliance",
+    "system": "Beacon",
+    "environment": "production",
+    "permission": "read",
+    "business_purpose": "to review account activity records to help with internal audit we have scheduled",
+    "start_date": "2026-10-28",
+    "end_date": "2026-10-30",
+    "manager": "Elena Park",
+    "supporting_quotes": [
+      "to review account activity records to help with internal audit we have scheduled",
+      "IT-013 (dated 2026-10-22)",
+      "Emma Wilson from Compliance",
+      "new access to Beacon for reading in production",
+      "from 2026-10-28 to 2026-10-30",
+      "My manager is Elena Park."
+    ],
+    "issues": []
+  },
+  "status": "review",
+  "owner": "Security Review",
+  "next_action": "review-risk-then-owner",
+  "issue_categories": [],
+  "source_evidence": "| E13 / IT-013.json | request_id IT-013; kind new; requester Emma Wilson; team Compliance; system Beacon; environment production; permission read; dates 2026-10-28 through 2026-10-30; manager Elena Park; purpose “to review account activity records to help with internal audit we have scheduled”; route K; issues empty. | “IT-013 (dated 2026-10-22)”; “Emma Wilson from Compliance”; “new access to Beacon for reading in production”; “from 2026-10-28 to 2026-10-30”; “My manager is Elena Park.”; quoted purpose; rule 4. |",
+  "purpose_facts": [
+    "to review account activity records to help with internal audit we have scheduled"
+  ],
+  "source_message": "Hey, can you assist with IT-013 (dated 2026-10-22). This is Emma Wilson from Compliance. I need to get new access to Beacon for reading in production. Need it from 2026-10-28 to 2026-10-30 to review account activity records to help with internal audit we have scheduled. My manager is Elena Park. Audit coordinator already has the accounts to look at lined up. It's my job to check out the dates on the activity records and provide a summary of any gaps that we need to have for our review meeting.",
+  "source_sha256": "e477b1b1ecabb5f445dd80703e532a7ac11247220861a09f550f374dcdea240f",
+  "required_evidence_terms": []
+}

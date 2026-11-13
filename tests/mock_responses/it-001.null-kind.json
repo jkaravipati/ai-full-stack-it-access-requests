@@ -1,0 +1,18 @@
+{
+  "id": "mock-fixture",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": null, \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Request kind is unresolved. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"kind: unresolved in source.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"kind\", \"code\": \"missing\", \"supporting_quotes\": [\"Request kind is unresolved.\"]}]}}"
+        }
+      ]
+    }
+  ]
+}

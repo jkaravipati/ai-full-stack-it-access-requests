@@ -1,0 +1,220 @@
+{
+  "entries": [
+    {
+      "document_id": "IT-001.json",
+      "source_sha256": "102a69f8fbc3779ec19fb6c761ad34b0c9a001f845b8df3c808f5a79441fbb10",
+      "operation": "extraction",
+      "file": "it-001.complete.json"
+    },
+    {
+      "document_id": "IT-002.json",
+      "source_sha256": "007e47d1bd662d246e6d3656b6226b1c512ca4d38d71fc5844b9690ee29c14f6",
+      "operation": "extraction",
+      "file": "it-002.complete.json"
+    },
+    {
+      "document_id": "IT-003.json",
+      "source_sha256": "80b64509cf82b29006492e97a2c53a165b9df7d22c78da10976a04594f829052",
+      "operation": "extraction",
+      "file": "it-003.incomplete.json"
+    },
+    {
+      "document_id": "IT-004.json",
+      "source_sha256": "d5de0f00c5c118e499ed27c6f779139b1b4c483158adf5fd2d86f513b1f9654e",
+      "operation": "extraction",
+      "file": "it-004.conflict.json"
+    },
+    {
+      "document_id": "IT-005.json",
+      "source_sha256": "fb0f1d6451346e0d411204cb82375ae6f3be26e2791996d6adb5550d969c20f1",
+      "operation": "extraction",
+      "file": "it-005.withdrawal.json"
+    },
+    {
+      "document_id": "IT-006.json",
+      "source_sha256": "d342c355bcf72b2d2c50e5fdf2696403bc245f5e7483722095e92b382a1991b2",
+      "operation": "extraction",
+      "file": "it-006.override.json"
+    },
+    {
+      "document_id": "IT-006.json",
+      "source_sha256": "d342c355bcf72b2d2c50e5fdf2696403bc245f5e7483722095e92b382a1991b2",
+      "operation": "override_assessment",
+      "file": "it-006.override-assessment.true.json"
+    },
+    {
+      "document_id": "IT-007.json",
+      "source_sha256": "dd4857323b83b418755981031c2798cd95c83703d09aa5457e3c8105afba646e",
+      "operation": "extraction",
+      "file": "it-007.change.json"
+    },
+    {
+      "document_id": "IT-008.json",
+      "source_sha256": "b1e1de4bd67831115149cad2f1caba73f76d0c016bfcd75bdcdefdff8705a66f",
+      "operation": "extraction",
+      "file": "it-008.corrected.json"
+    },
+    {
+      "document_id": "IT-009.json",
+      "source_sha256": "8aa13b91d4d163827ed609b04c4cf40db2e66e4bbe33cd2211e22c1fa35378ad",
+      "operation": "extraction",
+      "file": "it-009.missing-manager.json"
+    },
+    {
+      "document_id": "IT-010.json",
+      "source_sha256": "8d40a28442575c92e012ea57356a5d39b5a5724dd8e85de65118bffbf269ea2d",
+      "operation": "extraction",
+      "file": "it-010.missing-end.json"
+    },
+    {
+      "document_id": "IT-011.json",
+      "source_sha256": "0776059292b21c7e12a3c5ecf3e81b3afa9743a4bd5e67e897da9bdd15bab345",
+      "operation": "extraction",
+      "file": "it-011.relative-dates.json"
+    },
+    {
+      "document_id": "IT-012.json",
+      "source_sha256": "192b72da5e74647b660d0e1226bb6a0f056fca4ec5ec53b278d7863fd397a791",
+      "operation": "extraction",
+      "file": "it-012.complete.json"
+    },
+    {
+      "document_id": "IT-013.json",
+      "source_sha256": "e477b1b1ecabb5f445dd80703e532a7ac11247220861a09f550f374dcdea240f",
+      "operation": "extraction",
+      "file": "it-013.complete.json"
+    },
+    {
+      "document_id": "IT-014.json",
+      "source_sha256": "8f2ce7407f230ea93d334947f9fd577ef7656f5deb25c5d28b62e5930ce592a1",
+      "operation": "extraction",
+      "file": "it-014.inverted-dates.json"
+    },
+    {
+      "document_id": "IT-015.json",
+      "source_sha256": "a8beef34c01e19d3192a97d81b7a9b1a076703733d842b2eb50b002c6723cd2d",
+      "operation": "extraction",
+      "file": "it-015.corrected.json"
+    },
+    {
+      "document_id": "IT-016.json",
+      "source_sha256": "4c470e6fc498eba6b02efd4fcb9e4550b5e6229c608b20d7ceb2e529cd6282c2",
+      "operation": "extraction",
+      "file": "it-016.mismatch.json"
+    },
+    {
+      "document_id": "IT-017.json",
+      "source_sha256": "48c112b2079b488d1c8c52585526957f072df1d7985cf8a2d1a71624c7f08a15",
+      "operation": "extraction",
+      "file": "it-017.other.json"
+    },
+    {
+      "document_id": "IT-018.json",
+      "source_sha256": "0f4735183084c428b92ba37fc4247b8792222daff9395ab3feb94b866a8de1bd",
+      "operation": "extraction",
+      "file": "it-018.complete.json"
+    },
+    {
+      "document_id": "IT-019.json",
+      "source_sha256": "a2818ebed37c50392ff66143f0f4ecea0509b40a6d42edff4168770041d8e87d",
+      "operation": "extraction",
+      "file": "it-019.change.json"
+    },
+    {
+      "document_id": "IT-020.json",
+      "source_sha256": "05c79e5aeea9a964492143fe9e0731e7926ae987bd935482940ffde658a273ab",
+      "operation": "extraction",
+      "file": "it-020.conflict.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "88c50f3ddf020eeaf084589d3b379201189045a09e1f1bb939290c8bc889b6e0",
+      "operation": "extraction",
+      "file": "it-p01.paraphrase.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "dad7b11bf769ceca9a1daf0dbb93ab7c728a2f35dc9a230ab1072f5d0a2212b3",
+      "operation": "extraction",
+      "file": "it-p01.invalid-date.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "56d2d36e68489ed94ff90b2efd53a478055b4ee24e964225dbdc88a096c96286",
+      "operation": "extraction",
+      "file": "it-p01.ambiguous-date.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "bce6deecd27793c381fb5fe22b13bfe7ff3c281779e4cb6189dabfc899b1dc17",
+      "operation": "extraction",
+      "file": "it-p01.blank-manager.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "3d538c1af07a9a978c93e4c4fb1487c3527bcc134f5020396326eaffebf5c33f",
+      "operation": "extraction",
+      "file": "it-p01.quoted-attack.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "3d538c1af07a9a978c93e4c4fb1487c3527bcc134f5020396326eaffebf5c33f",
+      "operation": "override_assessment",
+      "file": "it-p01.assessment.false.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "61beaeb1f5b12125d55abe655f9119b766d88e615563445e7cfbf33f69de2552",
+      "operation": "extraction",
+      "file": "it-p01.clear-correction.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "9043dc84913e34a4bb685804a3e4572ea05cbd0167f103cdca81433fba0ebefe",
+      "operation": "extraction",
+      "file": "it-p01.uncorrected-conflict.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "708f4586490922ff04fb7e88d333bdadac93012e6fcdd1a6470471f9ac68fa78",
+      "operation": "extraction",
+      "file": "it-p01.unusable-correction.json"
+    },
+    {
+      "document_id": "IT-P01.json",
+      "source_sha256": "5c4578cd53a65e02e86c4df0c02cd3a0a30150cebd9d1db729d306e7d809327e",
+      "operation": "extraction",
+      "file": "it-p01.200-words.json"
+    },
+    {
+      "document_id": "IT-001.json",
+      "source_sha256": "17120b5b23a9071ac8d18f9f56dca9a7cf07eaccfe614b38c732882e8df0cb38",
+      "operation": "extraction",
+      "file": "it-001.changed-end.json"
+    },
+    {
+      "document_id": "IT-006.json",
+      "source_sha256": "1f5f56c105e1c58a28116dfc105f9cf01236934f5ad87c3c7a673e28576f8055",
+      "operation": "extraction",
+      "file": "it-006.withdrawal-override.json"
+    },
+    {
+      "document_id": "IT-006.json",
+      "source_sha256": "1f5f56c105e1c58a28116dfc105f9cf01236934f5ad87c3c7a673e28576f8055",
+      "operation": "override_assessment",
+      "file": "it-006.override-assessment.true.json"
+    },
+    {
+      "document_id": "IT-005.json",
+      "source_sha256": "9ee519b93ce1d4e244d949b41810f0d9877199c0a046b2b2445ec4393ce4f7a5",
+      "operation": "extraction",
+      "file": "it-005.minimal-withdrawal.json"
+    },
+    {
+      "document_id": "IT-001.json",
+      "source_sha256": "21bd858f3d72466e64c3d2a4421b81460533da10e38122955c261151918f366b",
+      "operation": "extraction",
+      "file": "it-001.null-kind.json"
+    }
+  ]
+}

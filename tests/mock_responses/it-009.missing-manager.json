@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-009.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-009\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Isla Morgan\", \"team\": \"Support\", \"system\": \"Beacon\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"to go through example support cases before updating our troubleshooting guide\", \"start_date\": \"2026-10-26\", \"end_date\": \"2026-10-29\", \"manager\": null, \"supporting_quotes\": [\"to go through example support cases before updating our troubleshooting guide\", \"new staging read access for Beacon\", \"Isla Morgan, Support. IT-009, submitted 2026-10-22.\", \"from 2026-10-26 - 2026-10-29\"], \"issues\": [\"manager: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"manager\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+        }
+      ]
+    }
+  ]
+}

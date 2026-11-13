@@ -1,0 +1,185 @@
+test_T04_complete_request (tests.test_03_policy.PolicyTests.test_T04_complete_request) ... ERROR
+test_T05_missing_dates_precede_risk (tests.test_03_policy.PolicyTests.test_T05_missing_dates_precede_risk) ... ERROR
+test_T06_conflicts_preserve_alternatives (tests.test_03_policy.PolicyTests.test_T06_conflicts_preserve_alternatives) ... ERROR
+test_T07_missed_override_is_assessed_with_context (tests.test_03_policy.PolicyTests.test_T07_missed_override_is_assessed_with_context) ... ERROR
+test_T08_withdrawal_exception (tests.test_03_policy.PolicyTests.test_T08_withdrawal_exception) ... ERROR
+test_T09_production_write_and_admin_risk (tests.test_03_policy.PolicyTests.test_T09_production_write_and_admin_risk) ... ERROR
+test_T10_explicit_corrections (tests.test_03_policy.PolicyTests.test_T10_explicit_corrections) ... ERROR
+test_T11_change_uses_new_permission (tests.test_03_policy.PolicyTests.test_T11_change_uses_new_permission) ... ERROR
+test_T12_identifier_mismatch (tests.test_03_policy.PolicyTests.test_T12_identifier_mismatch) ... ERROR
+test_T13_reversed_date_range_is_not_swapped (tests.test_03_policy.PolicyTests.test_T13_reversed_date_range_is_not_swapped) ... ERROR
+test_T14_each_required_fact_and_other_kind (tests.test_03_policy.PolicyTests.test_T14_each_required_fact_and_other_kind) ... ERROR
+test_T15_relative_dates_not_anchored_to_export (tests.test_03_policy.PolicyTests.test_T15_relative_dates_not_anchored_to_export) ... ERROR
+test_T16_priority_matrix (tests.test_03_policy.PolicyTests.test_T16_priority_matrix) ... ERROR
+test_T37_unusable_source_facts (tests.test_03_policy.PolicyTests.test_T37_unusable_source_facts) ... ERROR
+test_T38_quoted_attack_is_not_an_actual_attempt (tests.test_03_policy.PolicyTests.test_T38_quoted_attack_is_not_an_actual_attempt) ... ERROR
+test_T39_correction_intent_and_invalid_replacement (tests.test_03_policy.PolicyTests.test_T39_correction_intent_and_invalid_replacement) ... ERROR
+
+======================================================================
+ERROR: test_T04_complete_request (tests.test_03_policy.PolicyTests.test_T04_complete_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 21, in test_T04_complete_request
+    r = self.prepare(1)
+        ^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T05_missing_dates_precede_risk (tests.test_03_policy.PolicyTests.test_T05_missing_dates_precede_risk)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 26, in test_T05_missing_dates_precede_risk
+    r = self.prepare(10)
+        ^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T06_conflicts_preserve_alternatives (tests.test_03_policy.PolicyTests.test_T06_conflicts_preserve_alternatives)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 32, in test_T06_conflicts_preserve_alternatives
+    r = self.prepare(n)
+        ^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T07_missed_override_is_assessed_with_context (tests.test_03_policy.PolicyTests.test_T07_missed_override_is_assessed_with_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 38, in test_T07_missed_override_is_assessed_with_context
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T08_withdrawal_exception (tests.test_03_policy.PolicyTests.test_T08_withdrawal_exception)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 51, in test_T08_withdrawal_exception
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T09_production_write_and_admin_risk (tests.test_03_policy.PolicyTests.test_T09_production_write_and_admin_risk)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 66, in test_T09_production_write_and_admin_risk
+    self.assert_route(self.prepare(n),'review','Security Review','review-risk-then-owner')
+                      ^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T10_explicit_corrections (tests.test_03_policy.PolicyTests.test_T10_explicit_corrections)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 69, in test_T10_explicit_corrections
+    self.assertEqual(self.prepare(8)['extraction']['environment'],'staging')
+                     ^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T11_change_uses_new_permission (tests.test_03_policy.PolicyTests.test_T11_change_uses_new_permission)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 76, in test_T11_change_uses_new_permission
+    r=self.prepare(19)
+      ^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T12_identifier_mismatch (tests.test_03_policy.PolicyTests.test_T12_identifier_mismatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 82, in test_T12_identifier_mismatch
+    r=self.prepare(16)
+      ^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T13_reversed_date_range_is_not_swapped (tests.test_03_policy.PolicyTests.test_T13_reversed_date_range_is_not_swapped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 87, in test_T13_reversed_date_range_is_not_swapped
+    r=self.prepare(14)
+      ^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T14_each_required_fact_and_other_kind (tests.test_03_policy.PolicyTests.test_T14_each_required_fact_and_other_kind)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 92, in test_T14_each_required_fact_and_other_kind
+    from access_intake.policy import prepare, REQUIRED
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T15_relative_dates_not_anchored_to_export (tests.test_03_policy.PolicyTests.test_T15_relative_dates_not_anchored_to_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 107, in test_T15_relative_dates_not_anchored_to_export
+    r=self.prepare(11)
+      ^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 13, in prepare
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T16_priority_matrix (tests.test_03_policy.PolicyTests.test_T16_priority_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 113, in test_T16_priority_matrix
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T37_unusable_source_facts (tests.test_03_policy.PolicyTests.test_T37_unusable_source_facts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 131, in test_T37_unusable_source_facts
+    r=self.edge(slug)
+      ^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 125, in edge
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T38_quoted_attack_is_not_an_actual_attempt (tests.test_03_policy.PolicyTests.test_T38_quoted_attack_is_not_an_actual_attempt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 141, in test_T38_quoted_attack_is_not_an_actual_attempt
+    r=self.edge('quoted-attack',assess)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 125, in edge
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+======================================================================
+ERROR: test_T39_correction_intent_and_invalid_replacement (tests.test_03_policy.PolicyTests.test_T39_correction_intent_and_invalid_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 149, in test_T39_correction_intent_and_invalid_replacement
+    self.assertEqual(self.edge('clear-correction')['extraction']['end_date'],'2026-11-07')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_03_policy.py", line 125, in edge
+    from access_intake.policy import prepare
+ModuleNotFoundError: No module named 'access_intake.policy'
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.079s
+
+FAILED (errors=16)

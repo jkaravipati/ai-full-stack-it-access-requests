@@ -1,0 +1,52 @@
+{
+  "document_id": "IT-020.json",
+  "extraction": {
+    "request_id": "IT-020",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Ethan Clark",
+    "team": "Product",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "I want to look at some sample usage records before I draft the summary on feature adoption.",
+    "start_date": "2026-10-29",
+    "end_date": "2026-11-02",
+    "manager": null,
+    "supporting_quotes": [
+      "I want to look at some sample usage records before I draft the summary on feature adoption.",
+      "IT-020. Dated 2026-10-22. I'm Ethan Clark with Product.",
+      "new Atlas read access to staging from 2026-10-29 to 2026-11-02",
+      "My manager is Priya Shah. The manager for this request is Elena Park."
+    ],
+    "issues": [
+      "manager: conflict."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "manager",
+      "code": "conflict",
+      "supporting_quotes": [
+        "I want to look at some sample usage records before I draft the summary on feature adoption.",
+        "IT-020. Dated 2026-10-22. I'm Ethan Clark with Product.",
+        "new Atlas read access to staging from 2026-10-29 to 2026-11-02",
+        "My manager is Priya Shah. The manager for this request is Elena Park."
+      ]
+    }
+  ],
+  "source_evidence": "| E20 / IT-020.json | request_id IT-020; kind new; requester Ethan Clark; team Product; system Atlas; environment staging; permission read; dates 2026-10-29 through 2026-11-02; manager null; purpose “I want to look at some sample usage records before I draft the summary on feature adoption.”; conflicting-manager issue with both alternatives quoted; route N. | “IT-020. Dated 2026-10-22. I'm Ethan Clark with Product.”; “new Atlas read access to staging from 2026-10-29 to 2026-11-02”; “My manager is Priya Shah. The manager for this request is Elena Park.”; quoted purpose; unresolved-contradiction rule and rule 3. |",
+  "purpose_facts": [
+    "I want to look at some sample usage records before I draft the summary on feature adoption."
+  ],
+  "source_message": "IT-020. Dated 2026-10-22. I'm Ethan Clark with Product. I need new Atlas read access to staging from 2026-10-29 to 2026-11-02. I want to look at some sample usage records before I draft the summary on feature adoption. My manager is Priya Shah. The manager for this request is Elena Park. Those are the names I wrote down from notes during the team handover. I copied them exactly as I saw them. The summary will compare the sample records with the feature list and point out where labels make the activity difficult to interpret. I would like this request logged in with the details above so we can follow up prior to the writing session.",
+  "source_sha256": "05c79e5aeea9a964492143fe9e0731e7926ae987bd935482940ffde658a273ab",
+  "required_evidence_terms": [
+    "Priya Shah",
+    "Elena Park"
+  ]
+}

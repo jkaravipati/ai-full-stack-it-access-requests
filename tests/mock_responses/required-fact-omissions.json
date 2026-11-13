@@ -1,0 +1,510 @@
+{
+  "cases": [
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "request_id",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": null, \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"request_id: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"request_id\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "request_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": null, \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"request_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"request_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "requester",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": null, \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"requester: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"requester\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "team",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": null, \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"team: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"team\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "system",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": null, \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"system: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"system\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "environment",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": null, \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"environment: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"environment\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "permission",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": null, \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"permission: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"permission\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "business_purpose",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": null, \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. start_date: 2026-10-23. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"business_purpose: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"business_purpose\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. end_date: 2026-11-06. manager: Priya Shah.",
+      "omitted_field": "start_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": null, \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. end_date: 2026-11-06. manager: Priya Shah.\"], \"issues\": [\"start_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"start_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. manager: Priya Shah.",
+      "omitted_field": "end_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": null, \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. manager: Priya Shah.\"], \"issues\": [\"end_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"end_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-001.json",
+      "message": "Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06.",
+      "omitted_field": "manager",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-001\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": null, \"supporting_quotes\": [\"Kind: new. request_id: IT-001. request_date: 2026-10-22. requester: Maya Chen. team: Analytics. system: Atlas. environment: staging. permission: read. business_purpose: I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).. start_date: 2026-10-23. end_date: 2026-11-06.\"], \"issues\": [\"manager: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"manager\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "request_id",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": null, \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"request_id: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"request_id\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "request_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": null, \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"request_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"request_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "requester",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": null, \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"requester: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"requester\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "team",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": null, \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"team: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"team\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "system",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": null, \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"system: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"system\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "environment",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": null, \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"environment: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"environment\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "permission",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": null, \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"permission: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"permission\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "business_purpose",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": null, \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. start_date: 2026-10-28. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"business_purpose: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"business_purpose\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. end_date: 2026-11-04. manager: Elena Park.",
+      "omitted_field": "start_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": null, \"end_date\": \"2026-11-04\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. end_date: 2026-11-04. manager: Elena Park.\"], \"issues\": [\"start_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"start_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. manager: Elena Park.",
+      "omitted_field": "end_date",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": null, \"manager\": \"Elena Park\", \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. manager: Elena Park.\"], \"issues\": [\"end_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"end_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "document_id": "IT-019.json",
+      "message": "Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04.",
+      "omitted_field": "manager",
+      "response": {
+        "id": "mock-fixture",
+        "status": "completed",
+        "model": "mock-model",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"extraction\": {\"request_id\": \"IT-019\", \"request_date\": \"2026-10-22\", \"kind\": \"change\", \"requester\": \"Sara Ahmed\", \"team\": \"Customer Operations\", \"system\": \"Beacon\", \"environment\": \"production\", \"permission\": \"read\", \"business_purpose\": \"I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.\", \"start_date\": \"2026-10-28\", \"end_date\": \"2026-11-04\", \"manager\": null, \"supporting_quotes\": [\"Kind: change. request_id: IT-019. request_date: 2026-10-22. requester: Sara Ahmed. team: Customer Operations. system: Beacon. environment: production. permission: read. business_purpose: I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts.. start_date: 2026-10-28. end_date: 2026-11-04.\"], \"issues\": [\"manager: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"manager\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

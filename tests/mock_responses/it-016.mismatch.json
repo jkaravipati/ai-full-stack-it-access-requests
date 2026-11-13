@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-016.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-061\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Alex Turner\", \"team\": \"Platform\", \"system\": \"Forge\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"figure out why the starter project takes longer to build some of the time\", \"start_date\": \"2026-10-26\", \"end_date\": \"2026-10-28\", \"manager\": \"Nia Patel\", \"supporting_quotes\": [\"figure out why the starter project takes longer to build some of the time\", \"Alex Turner from Platform submitting request IT-061 for 2026-10-22\", \"new read access to Forge (staging) for the dates 2026-10-26 through 2026-10-28\", \"Nia Patel is my manager.\"], \"issues\": [\"request_id: identifier mismatch.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"request_id\", \"code\": \"identifier_mismatch\", \"supporting_quotes\": [\"request IT-061\"]}]}}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "document_id": "IT-003.json",
+  "extraction": {
+    "request_id": "IT-003",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Lina Gomez",
+    "team": "Customer Success",
+    "system": "Beacon",
+    "environment": null,
+    "permission": null,
+    "business_purpose": "I'm trying to get the account notes together before we meet as a team.",
+    "start_date": null,
+    "end_date": null,
+    "manager": "Priya Shah",
+    "supporting_quotes": [
+      "I'm trying to get the account notes together before we meet as a team.",
+      "this is Lina Gomez from Customer Success",
+      "IT-003 on 2026-10-22",
+      "I need new access to Beacon. The same access Sam has.",
+      "My manager is Priya Shah.",
+      "I didn't note what environment he was on or what the permission is named"
+    ],
+    "issues": [
+      "environment: missing.",
+      "permission: missing.",
+      "start_date: missing.",
+      "end_date: missing."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "environment",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 1,
+      "field": "permission",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 2,
+      "field": "start_date",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 3,
+      "field": "end_date",
+      "code": "missing",
+      "supporting_quotes": []
+    }
+  ],
+  "source_evidence": "| E03 / IT-003.json | request_id IT-003; kind new; requester Lina Gomez; team Customer Success; system Beacon; environment/permission/start_date/end_date null; manager Priya Shah; purpose “I'm trying to get the account notes together before we meet as a team.”; issues explain the four unresolved facts; route N. | “this is Lina Gomez from Customer Success”; “IT-003 on 2026-10-22”; “I need new access to Beacon. The same access Sam has.”; “My manager is Priya Shah.”; “I didn't note what environment he was on or what the permission is named”; quoted purpose; “A relative date stays unresolved.”; rule 3. |",
+  "purpose_facts": [
+    "I'm trying to get the account notes together before we meet as a team."
+  ],
+  "source_message": "Hi, this is Lina Gomez from Customer Success. I'm opening up IT-003 on 2026-10-22. I need new access to Beacon. The same access Sam has. We are working on the customer renewal review next week. I'm trying to get the account notes together before we meet as a team. My manager is Priya Shah. Sam did show me the screens during the hand-off but I didn't note what environment he was on or what the permission is named. Can someone help me figure out what the request should be? I'll follow up when I have the details.",
+  "source_sha256": "80b64509cf82b29006492e97a2c53a165b9df7d22c78da10976a04594f829052",
+  "required_evidence_terms": []
+}

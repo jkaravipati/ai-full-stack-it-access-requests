@@ -1,0 +1,35 @@
+{
+  "document_id": "IT-001.json",
+  "extraction": {
+    "request_id": "IT-001",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Maya Chen",
+    "team": "Analytics",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).",
+    "start_date": "2026-10-23",
+    "end_date": "2026-11-06",
+    "manager": "Priya Shah",
+    "supporting_quotes": [
+      "I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).",
+      "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+      "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+      "My manager is Priya Shah."
+    ],
+    "issues": []
+  },
+  "status": "review",
+  "owner": "System Owner",
+  "next_action": "review-request",
+  "issue_categories": [],
+  "source_evidence": "| E01 / IT-001.json | request_id IT-001; kind new; requester Maya Chen; team Analytics; system Atlas; environment staging; permission read; start_date 2026-10-23; end_date 2026-11-06; manager Priya Shah; purpose “I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).”; route S; issues empty. | “Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.”; “new read access on Atlas in staging from 2026-10-23 to 2026-11-06”; “My manager is Priya Shah.”; quoted purpose; rule 5. |",
+  "purpose_facts": [
+    "I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle)."
+  ],
+  "source_message": "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22. Can I get new read access on Atlas in staging from 2026-10-23 to 2026-11-06? My manager is Priya Shah. I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle). The sample records are already loaded, and I need to check the totals against our spreadsheet. Once I'm done with checking, I'll be sending out any discrepancies to the dashboard owner.",
+  "source_sha256": "102a69f8fbc3779ec19fb6c761ad34b0c9a001f845b8df3c808f5a79441fbb10",
+  "required_evidence_terms": []
+}

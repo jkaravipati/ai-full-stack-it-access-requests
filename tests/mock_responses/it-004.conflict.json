@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-004.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-004\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Theo Malik\", \"team\": \"Quality Engineering\", \"system\": \"Atlas\", \"environment\": null, \"permission\": \"read\", \"business_purpose\": \"I'm trying to understand why the nightly quality report shows different counts from the release checklist.\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-10-30\", \"manager\": \"Nia Patel\", \"supporting_quotes\": [\"I'm trying to understand why the nightly quality report shows different counts from the release checklist.\", \"IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering.\", \"new read access in staging to Atlas from 2026-10-23 to 2026-10-30\", \"Nia Patel is my manager.\", \"This request is for the production environment.\"], \"issues\": [\"environment: conflict.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"environment\", \"code\": \"conflict\", \"supporting_quotes\": [\"I'm trying to understand why the nightly quality report shows different counts from the release checklist.\", \"IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering.\", \"new read access in staging to Atlas from 2026-10-23 to 2026-10-30\", \"Nia Patel is my manager.\", \"This request is for the production environment.\"]}]}}"
+        }
+      ]
+    }
+  ]
+}

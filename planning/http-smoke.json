@@ -1,0 +1,23 @@
+{
+  "origin": "mock; local HTTP smoke, no live model",
+  "base_url": "http://127.0.0.1:8765",
+  "counts": {
+    "total": 21,
+    "review": 12,
+    "needs_information": 9,
+    "errors": 0,
+    "pending": 0
+  },
+  "checks": [
+    "HTML/JS/CSS served",
+    "HTTP intake accepted",
+    "21 background results match source-derived routes/hashes",
+    "base64 upload preserves original bytes",
+    "detail/history endpoints",
+    "cross-origin POST blocked",
+    "unrecognized Host blocked",
+    "snapshot export/download",
+    "path traversal rejected"
+  ],
+  "browser_interaction_tested": false
+}

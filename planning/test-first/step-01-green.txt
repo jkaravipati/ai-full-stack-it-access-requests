@@ -1,0 +1,9 @@
+test_T01_fixture_provider_is_offline_and_counts_operations (test_01_mock.MockProviderTests.test_T01_fixture_provider_is_offline_and_counts_operations) ... ok
+test_a_mock_reply_is_read_with_no_key_and_no_network (test_starter.MockResponse.test_a_mock_reply_is_read_with_no_key_and_no_network) ... ok
+test_each_request_export_has_message_text_and_a_hash (test_starter.SuppliedFiles.test_each_request_export_has_message_text_and_a_hash) ... ok
+test_the_schema_names_the_fields_it_requires (test_starter.SuppliedFiles.test_the_schema_names_the_fields_it_requires) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK

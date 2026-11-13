@@ -1,0 +1,11 @@
+test_T01_fixture_provider_is_offline_and_counts_operations (test_01_mock.MockProviderTests.test_T01_fixture_provider_is_offline_and_counts_operations) ... ok
+test_T02_schema_required_types_enums_and_arrays (test_02_validation.ValidationTests.test_T02_schema_required_types_enums_and_arrays) ... ok
+test_T03_bytes_filename_metadata_decoding_and_invalid_inputs (test_02_validation.ValidationTests.test_T03_bytes_filename_metadata_decoding_and_invalid_inputs) ... ok
+test_a_mock_reply_is_read_with_no_key_and_no_network (test_starter.MockResponse.test_a_mock_reply_is_read_with_no_key_and_no_network) ... ok
+test_each_request_export_has_message_text_and_a_hash (test_starter.SuppliedFiles.test_each_request_export_has_message_text_and_a_hash) ... ok
+test_the_schema_names_the_fields_it_requires (test_starter.SuppliedFiles.test_the_schema_names_the_fields_it_requires) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.193s
+
+OK

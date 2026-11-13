@@ -1,0 +1,18 @@
+{
+  "id": "mock-unusable-correction",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-P01\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I need to compare dashboard totals with our spreadsheet after the event definitions changed.\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-02-30\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"On 2026-10-22, I, Maya Chen of Analytics, am filing IT-P01 for new access. Please let me read Atlas in staging between 2026-10-23 and 2026-11-06. Priya Shah is my manager. I need to compare dashboard totals with our spreadsheet after the event definitions changed. I am correcting my earlier end date; use 2026-02-30 instead\"], \"issues\": []}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": []}}"
+        }
+      ]
+    }
+  ]
+}

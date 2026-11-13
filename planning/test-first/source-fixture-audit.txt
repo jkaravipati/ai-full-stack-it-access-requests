@@ -1,0 +1,21 @@
+test_T04_complete_request (tests.test_03_policy.PolicyTests.test_T04_complete_request) ... ok
+test_T05_missing_dates_precede_risk (tests.test_03_policy.PolicyTests.test_T05_missing_dates_precede_risk) ... ok
+test_T06_conflicts_preserve_alternatives (tests.test_03_policy.PolicyTests.test_T06_conflicts_preserve_alternatives) ... ok
+test_T07_missed_override_is_assessed_with_context (tests.test_03_policy.PolicyTests.test_T07_missed_override_is_assessed_with_context) ... ok
+test_T08_withdrawal_exception (tests.test_03_policy.PolicyTests.test_T08_withdrawal_exception) ... ok
+test_T09_production_write_and_admin_risk (tests.test_03_policy.PolicyTests.test_T09_production_write_and_admin_risk) ... ok
+test_T10_explicit_corrections (tests.test_03_policy.PolicyTests.test_T10_explicit_corrections) ... ok
+test_T11_change_uses_new_permission (tests.test_03_policy.PolicyTests.test_T11_change_uses_new_permission) ... ok
+test_T12_identifier_mismatch (tests.test_03_policy.PolicyTests.test_T12_identifier_mismatch) ... ok
+test_T13_reversed_date_range_is_not_swapped (tests.test_03_policy.PolicyTests.test_T13_reversed_date_range_is_not_swapped) ... ok
+test_T14_each_required_fact_and_other_kind (tests.test_03_policy.PolicyTests.test_T14_each_required_fact_and_other_kind) ... ok
+test_T15_relative_dates_not_anchored_to_export (tests.test_03_policy.PolicyTests.test_T15_relative_dates_not_anchored_to_export) ... ok
+test_T16_priority_matrix (tests.test_03_policy.PolicyTests.test_T16_priority_matrix) ... ok
+test_T37_unusable_source_facts (tests.test_03_policy.PolicyTests.test_T37_unusable_source_facts) ... ok
+test_T38_quoted_attack_is_not_an_actual_attempt (tests.test_03_policy.PolicyTests.test_T38_quoted_attack_is_not_an_actual_attempt) ... ok
+test_T39_correction_intent_and_invalid_replacement (tests.test_03_policy.PolicyTests.test_T39_correction_intent_and_invalid_replacement) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.146s
+
+OK

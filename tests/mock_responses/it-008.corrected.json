@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-008.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-008\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Noah Kim\", \"team\": \"Finance\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I am trying to check the sample billing total vs forecasting workbook before month end rehearsal.\", \"start_date\": \"2026-10-25\", \"end_date\": \"2026-10-31\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"I am trying to check the sample billing total vs forecasting workbook before month end rehearsal.\", \"For IT-008, submitted date 2026-10-22, Noah Kim from Finance\", \"new read access to Atlas in production from 2026-10-25 to 2026-10-31 (Priya Shah is my manager)\", \"Correction: environment is actually staging.\"], \"issues\": []}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": []}}"
+        }
+      ]
+    }
+  ]
+}

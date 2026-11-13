@@ -1,0 +1,51 @@
+{
+  "document_id": "IT-011.json",
+  "extraction": {
+    "request_id": "IT-011",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Zoe Adams",
+    "team": "Research",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "I'm looking at sample experiment records to get ready for our team walkthrough.",
+    "start_date": null,
+    "end_date": null,
+    "manager": "Priya Shah",
+    "supporting_quotes": [
+      "I'm looking at sample experiment records to get ready for our team walkthrough.",
+      "IT-011, 2026-10-22: Research (Zoe Adams)",
+      "new read access to Atlas in staging for next Monday - Friday",
+      "Priya Shah is my boss."
+    ],
+    "issues": [
+      "start_date: relative date.",
+      "end_date: relative date."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "start_date",
+      "code": "relative_date",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 1,
+      "field": "end_date",
+      "code": "relative_date",
+      "supporting_quotes": []
+    }
+  ],
+  "source_evidence": "| E11 / IT-011.json | request_id IT-011; kind new; requester Zoe Adams; team Research; system Atlas; environment staging; permission read; start_date/end_date null with issues; manager Priya Shah; purpose “I'm looking at sample experiment records to get ready for our team walkthrough.”; route N. | “IT-011, 2026-10-22: Research (Zoe Adams)”; “new read access to Atlas in staging for next Monday - Friday”; “Priya Shah is my boss.”; quoted purpose; “A relative date stays unresolved.”; rule 3. |",
+  "purpose_facts": [
+    "I'm looking at sample experiment records to get ready for our team walkthrough."
+  ],
+  "source_message": "IT-011, 2026-10-22: Research (Zoe Adams) - I need new read access to Atlas in staging for next Monday - Friday. Priya Shah is my boss. I'm looking at sample experiment records to get ready for our team walkthrough. The walkthrough covers how the experiment records relate to the charts. I'm looking to find confusing examples before the walkthrough.",
+  "source_sha256": "0776059292b21c7e12a3c5ecf3e81b3afa9743a4bd5e67e897da9bdd15bab345",
+  "required_evidence_terms": []
+}

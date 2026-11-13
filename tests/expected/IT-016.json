@@ -1,0 +1,46 @@
+{
+  "document_id": "IT-016.json",
+  "extraction": {
+    "request_id": "IT-061",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Alex Turner",
+    "team": "Platform",
+    "system": "Forge",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "figure out why the starter project takes longer to build some of the time",
+    "start_date": "2026-10-26",
+    "end_date": "2026-10-28",
+    "manager": "Nia Patel",
+    "supporting_quotes": [
+      "figure out why the starter project takes longer to build some of the time",
+      "Alex Turner from Platform submitting request IT-061 for 2026-10-22",
+      "new read access to Forge (staging) for the dates 2026-10-26 through 2026-10-28",
+      "Nia Patel is my manager."
+    ],
+    "issues": [
+      "request_id: identifier mismatch."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "request_id",
+      "code": "identifier_mismatch",
+      "supporting_quotes": [
+        "request IT-061"
+      ]
+    }
+  ],
+  "source_evidence": "| E16 / IT-016.json | document_id IT-016.json but request_id IT-061; kind new; requester Alex Turner; team Platform; system Forge; environment staging; permission read; dates 2026-10-26 through 2026-10-28; manager Nia Patel; purpose “figure out why the starter project takes longer to build some of the time”; mismatch issue; route N. | “Alex Turner from Platform submitting request IT-061 for 2026-10-22”; “new read access to Forge (staging) for the dates 2026-10-26 through 2026-10-28”; “Nia Patel is my manager.”; quoted purpose; “retain the stated identifier and record the mismatch as an issue.”; rule 3. |",
+  "purpose_facts": [
+    "figure out why the starter project takes longer to build some of the time"
+  ],
+  "source_message": "Hey, this is Alex Turner from Platform submitting request IT-061 for 2026-10-22. I am asking for new read access to Forge (staging) for the dates 2026-10-26 through 2026-10-28. Nia Patel is my manager. I am looking at the example pipeline runs to figure out why the starter project takes longer to build some of the time. I want to look at the run timestamps and compare to the template versions. I am going to share this info with the people who are managing the examples.",
+  "source_sha256": "4c470e6fc498eba6b02efd4fcb9e4550b5e6229c608b20d7ceb2e529cd6282c2",
+  "required_evidence_terms": []
+}

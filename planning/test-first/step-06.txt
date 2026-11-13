@@ -1,0 +1,36 @@
+test_T27_latest_accepted_generation_wins_and_pending_is_explicit (tests.test_06_operations.OperationsTests.test_T27_latest_accepted_generation_wins_and_pending_is_explicit) ... ok
+test_T28_slow_request_does_not_hide_completed_work_and_leases_recover (tests.test_06_operations.OperationsTests.test_T28_slow_request_does_not_hide_completed_work_and_leases_recover) ... FAIL
+test_T29_rate_limit_outage_deadline_and_manual_retry (tests.test_06_operations.OperationsTests.test_T29_rate_limit_outage_deadline_and_manual_retry) ... ERROR
+test_T30_snapshot_export_refuses_pending_and_survives_partial_publication (tests.test_06_operations.OperationsTests.test_T30_snapshot_export_refuses_pending_and_survives_partial_publication) ... ERROR
+test_two_operator_processes_reuse_the_same_document (tests.test_06_operations.OperationsTests.test_two_operator_processes_reuse_the_same_document) ... ok
+
+======================================================================
+ERROR: test_T29_rate_limit_outage_deadline_and_manual_retry (tests.test_06_operations.OperationsTests.test_T29_rate_limit_outage_deadline_and_manual_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_06_operations.py", line 83, in test_T29_rate_limit_outage_deadline_and_manual_retry
+    e=Intake(self.dir/'deadline.db',provider=p,call_timeout=.05)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Intake.__init__() got an unexpected keyword argument 'call_timeout'
+
+======================================================================
+ERROR: test_T30_snapshot_export_refuses_pending_and_survives_partial_publication (tests.test_06_operations.OperationsTests.test_T30_snapshot_export_refuses_pending_and_survives_partial_publication)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_06_operations.py", line 96, in test_T30_snapshot_export_refuses_pending_and_survives_partial_publication
+    first=e.store.export(output)
+          ^^^^^^^^^^^^^^
+AttributeError: 'Store' object has no attribute 'export'
+
+======================================================================
+FAIL: test_T28_slow_request_does_not_hide_completed_work_and_leases_recover (tests.test_06_operations.OperationsTests.test_T28_slow_request_does_not_hide_completed_work_and_leases_recover)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_06_operations.py", line 52, in test_T28_slow_request_does_not_hide_completed_work_and_leases_recover
+    self.assertEqual(e.store.inspect('IT-018.json')['next_action'],'review-request')
+AssertionError: None != 'review-request'
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.873s
+
+FAILED (failures=1, errors=2)

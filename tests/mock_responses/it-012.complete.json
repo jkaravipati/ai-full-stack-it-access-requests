@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-012.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-012\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Ravi Shah\", \"team\": \"Infrastructure\", \"system\": \"Forge\", \"environment\": \"staging\", \"permission\": \"admin\", \"business_purpose\": \"We're doing a configuration migration rehearsal before planning the wider rollout.\", \"start_date\": \"2026-10-26\", \"end_date\": \"2026-10-27\", \"manager\": \"Nia Patel\", \"supporting_quotes\": [\"We're doing a configuration migration rehearsal before planning the wider rollout.\", \"Ravi Shah from Infrastructure\", \"IT-012 on 2026-10-22\", \"new admin access to Forge in staging on 2026-10-26 - 2026-10-27\", \"My manager is Nia Patel.\"], \"issues\": []}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": []}}"
+        }
+      ]
+    }
+  ]
+}

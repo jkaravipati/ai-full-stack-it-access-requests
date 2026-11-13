@@ -1,0 +1,8 @@
+{
+  "purpose": "I need production administrator access to deploy billing changes.",
+  "review": {
+    "verdict": "incorrect",
+    "source_quote": "Can I get new read access on Atlas in staging from 2026-10-23 to 2026-11-06?",
+    "rationale": "Authored test verdict: production administration and deployments are unsupported; the source requests staging/read dashboard checks."
+  }
+}

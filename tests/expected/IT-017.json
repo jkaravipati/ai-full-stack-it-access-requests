@@ -1,0 +1,78 @@
+{
+  "document_id": "IT-017.json",
+  "extraction": {
+    "request_id": "IT-017",
+    "request_date": "2026-10-22",
+    "kind": "other",
+    "requester": "Chloe Martin",
+    "team": "Communications",
+    "system": null,
+    "environment": null,
+    "permission": null,
+    "business_purpose": "I want to update the document before the next bunch start so they're all doing the same thing.",
+    "start_date": null,
+    "end_date": null,
+    "manager": null,
+    "supporting_quotes": [
+      "I want to update the document before the next bunch start so they're all doing the same thing.",
+      "IT-017 was submitted by Chloe Martin from Communications on 2026-10-22.",
+      "Where can we find the access request form?"
+    ],
+    "issues": [
+      "system: missing.",
+      "environment: missing.",
+      "permission: missing.",
+      "start_date: missing.",
+      "end_date: missing.",
+      "manager: missing."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "system",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 1,
+      "field": "environment",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 2,
+      "field": "permission",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 3,
+      "field": "start_date",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 4,
+      "field": "end_date",
+      "code": "missing",
+      "supporting_quotes": []
+    },
+    {
+      "issue_index": 5,
+      "field": "manager",
+      "code": "missing",
+      "supporting_quotes": []
+    }
+  ],
+  "source_evidence": "| E17 / IT-017.json | request_id IT-017; kind other; requester Chloe Martin; team Communications; system/environment/permission/start_date/end_date/manager null with explanatory issues; purpose “I want to update the document before the next bunch start so they're all doing the same thing.”; route N. | “IT-017 was submitted by Chloe Martin from Communications on 2026-10-22.”; “Where can we find the access request form?”; quoted purpose; absent access facts are not supplied elsewhere in the message; rule 3 includes kind other. |",
+  "purpose_facts": [
+    "I want to update the document before the next bunch start so they're all doing the same thing."
+  ],
+  "source_message": "IT-017 was submitted by Chloe Martin from Communications on 2026-10-22. Where can we find the access request form? I noticed the link we have in our onboarding docs goes to an old page. I've had a few new starters ask me which link they should bookmark. I'm wondering if you can let me know the form URL. And who is responsible for that bit of onboarding? I want to update the document before the next bunch start so they're all doing the same thing.",
+  "source_sha256": "48c112b2079b488d1c8c52585526957f072df1d7985cf8a2d1a71624c7f08a15",
+  "required_evidence_terms": []
+}

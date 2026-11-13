@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northstar Labs access-request intake and human review queue.">
+  <title>Access operations · Northstar Labs</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Northstar access operations home"><span class="star" aria-hidden="true">✦</span><span>NORTHSTAR<span class="brand-sub">ACCESS OPERATIONS</span></span></a>
+    <div class="top-meta"><span class="connection"><span class="dot"></span><span id="connection">Connecting</span></span><span class="mode" id="mode">Loading configuration</span></div>
+  </header>
+  <main>
+    <div class="page-heading"><div><p class="eyebrow">IT SERVICE DESK / INTAKE</p><h1>Access requests<span class="heading-dot">.</span></h1><p class="intro">Prepare incoming requests and keep every review moving.</p></div><div class="review-note"><span aria-hidden="true">◎</span><div><strong>Human decisions, supported by evidence</strong><span>All requests await human review.</span></div></div></div>
+    <section class="stats" aria-label="Queue summary">
+      <article><p>Total requests</p><strong id="total">0</strong><span>In the shared intake</span></article>
+      <article><p><i class="swatch teal"></i>Ready for review</p><strong id="review">0</strong><span>Assigned to a review team</span></article>
+      <article><p><i class="swatch amber"></i>Needs information</p><strong id="needs_information">0</strong><span>Follow up with the requester</span></article>
+      <article><p><i class="swatch rose"></i>Extraction errors</p><strong id="errors">0</strong><span>Inspect the error and retry</span></article>
+    </section>
+    <section class="workspace" aria-labelledby="queue-title">
+      <div class="workspace-heading"><div><h2 id="queue-title">Review queue <span id="pending" class="pending" hidden></span></h2><p id="source-label">Your shared intake records</p></div><div class="actions"><button id="upload" class="button secondary">Upload exports</button><button id="start" class="button primary"><span aria-hidden="true">＋</span> Start intake</button><input id="files" type="file" accept=".json,application/json" multiple hidden></div></div>
+      <div class="tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search requests" placeholder="Search requester, ID, team or system…"></label><label class="filter"><span class="sr-only">Filter status</span><select id="filter"><option value="all">All statuses</option><option value="review">Ready for review</option><option value="needs-information">Needs information</option><option value="error">Extraction error</option><option value="pending">In progress</option></select></label><div class="secondary-actions"><button id="resume" class="text-button">Resume unfinished</button><button id="export" class="text-button">Export snapshot <span aria-hidden="true">↗</span></button></div></div>
+      <div class="table-wrap"><table><thead><tr><th>Request / requester</th><th>System & access</th><th>Status</th><th>Review owner</th><th>Next action</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <div id="empty" class="empty"><span class="empty-icon" aria-hidden="true">▤</span><h3>Your queue is ready for its first request</h3><p>Start intake from the configured exports or upload your own JSON files.</p></div>
+      <footer class="table-footer"><span id="shown">0 requests</span><span id="updated">Waiting for the first refresh</span></footer>
+    </section>
+    <div class="bottom-note"><span aria-hidden="true">ⓘ</span><p>A manager is a contact. Security Review evaluates risk, then forwards its recommendation to the system owner for a decision.</p></div>
+    <p id="notice" class="notice" role="status" aria-live="polite" hidden></p>
+    <nav id="downloads" class="downloads" aria-label="Snapshot downloads" hidden><a href="/api/exports/queue.json" download="queue.json">Download queue</a><a href="/api/exports/extractions.jsonl" download="extractions.jsonl">Download extractions</a><a href="/api/exports/manifest.json" download="manifest.json">Snapshot details</a></nav>
+  </main>
+  <dialog id="details"><div class="dialog-head"><div><p class="eyebrow">REQUEST DETAILS</p><h2 id="detail-title">Request</h2></div><button id="close-details" class="close-button" aria-label="Close request details">×</button></div><div class="dialog-content"><p id="detail-route" class="detail-route"></p><dl id="facts" class="facts"></dl><section><h3>Issues to follow up</h3><ul id="issues"></ul></section><section><h3>Supporting quotes</h3><div id="quotes" class="quotes"></div></section><section><h3>Source message</h3><pre id="source-message"></pre></section><section><h3>History</h3><p class="muted">Each attempt retains its own source version and result.</p><div id="history"></div></section><section id="previous-section" hidden><h3>Previous result · reference only</h3><pre id="previous"></pre></section></div><div class="dialog-foot"><span id="detail-state" class="muted"></span><button id="retry" class="button primary">Retry extraction</button></div></dialog>
+</body>
+</html>

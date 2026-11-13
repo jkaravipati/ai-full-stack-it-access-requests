@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-002.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-002\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Owen Reed\", \"team\": \"Payments\", \"system\": \"Ledger\", \"environment\": \"production\", \"permission\": \"write\", \"business_purpose\": \"I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report.\", \"start_date\": \"2026-10-24\", \"end_date\": \"2026-10-25\", \"manager\": \"Elena Park\", \"supporting_quotes\": [\"I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report.\", \"Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production.\", \"Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.\"], \"issues\": []}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": []}}"
+        }
+      ]
+    }
+  ]
+}

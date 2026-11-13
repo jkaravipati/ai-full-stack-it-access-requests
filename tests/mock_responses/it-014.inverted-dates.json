@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-014.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-014\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Lucas Brown\", \"team\": \"Sales Operations\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm giving a demo of the new territory report for sales leads.\", \"start_date\": \"2026-11-05\", \"end_date\": \"2026-11-02\", \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"I'm giving a demo of the new territory report for sales leads.\", \"IT-014. 2026-10-22 request. Lucas Brown in Sales Operations.\", \"New read access for Atlas in staging. Start date 2026-11-05. End date 2026-11-02. Manager is Priya Shah.\"], \"issues\": [\"start_date: invalid date range.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"start_date\", \"code\": \"invalid_date_range\", \"supporting_quotes\": [\"Start date 2026-11-05. End date 2026-11-02.\"]}]}}"
+        }
+      ]
+    }
+  ]
+}

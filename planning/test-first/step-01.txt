@@ -1,0 +1,14 @@
+test_T01_fixture_provider_is_offline_and_counts_operations (test_01_mock.MockProviderTests.test_T01_fixture_provider_is_offline_and_counts_operations) ... ERROR
+
+======================================================================
+ERROR: test_T01_fixture_provider_is_offline_and_counts_operations (test_01_mock.MockProviderTests.test_T01_fixture_provider_is_offline_and_counts_operations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_01_mock.py", line 13, in test_T01_fixture_provider_is_offline_and_counts_operations
+    from access_intake.providers import MockProvider
+ModuleNotFoundError: No module named 'access_intake'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)

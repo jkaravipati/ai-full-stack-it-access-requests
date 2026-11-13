@@ -1,0 +1,8 @@
+{
+  "purpose": "I need to check the weekly conversion dashboard after event definitions changed.",
+  "review": {
+    "verdict": "correct",
+    "source_quote": "I'm checking the weekly conversion dashboard with the new event definition changes (before next reporting cycle).",
+    "rationale": "Authored test verdict: the alternate wording preserves the stated dashboard-checking purpose."
+  }
+}

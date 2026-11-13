@@ -1,0 +1,46 @@
+{
+  "document_id": "IT-010.json",
+  "extraction": {
+    "request_id": "IT-010",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Ben Carter",
+    "team": "Operations",
+    "system": "Ledger",
+    "environment": "production",
+    "permission": "read",
+    "business_purpose": "compare the daily reconciliation report to the entries that the operations folks see",
+    "start_date": "2026-10-27",
+    "end_date": null,
+    "manager": "Elena Park",
+    "supporting_quotes": [
+      "compare the daily reconciliation report to the entries that the operations folks see",
+      "I'm Ben Carter in Operations.",
+      "new access request (IT-010), date of submission is 2026-10-22",
+      "read access to Ledger (production) starting 2026-10-27",
+      "My manager is Elena Park.",
+      "Haven't quite fixed on the end date."
+    ],
+    "issues": [
+      "end_date: missing."
+    ]
+  },
+  "status": "needs-information",
+  "owner": "IT Service Desk",
+  "next_action": "clarify",
+  "issue_categories": [
+    {
+      "issue_index": 0,
+      "field": "end_date",
+      "code": "missing",
+      "supporting_quotes": []
+    }
+  ],
+  "source_evidence": "| E10 / IT-010.json | request_id IT-010; kind new; requester Ben Carter; team Operations; system Ledger; environment production; permission read; start_date 2026-10-27; end_date null with issue; manager Elena Park; purpose “compare the daily reconciliation report to the entries that the operations folks see”; route N, taking priority over production routing. | “I'm Ben Carter in Operations.”; “new access request (IT-010), date of submission is 2026-10-22”; “read access to Ledger (production) starting 2026-10-27”; “My manager is Elena Park.”; “Haven't quite fixed on the end date.”; quoted purpose; rule 3 before rule 4. |",
+  "purpose_facts": [
+    "compare the daily reconciliation report to the entries that the operations folks see"
+  ],
+  "source_message": "I'm Ben Carter in Operations. This is a new access request (IT-010), date of submission is 2026-10-22. Would like to request read access to Ledger (production) starting 2026-10-27. My manager is Elena Park. What I'm looking to do is to compare the daily reconciliation report to the entries that the operations folks see as some of the totals have been hard to explain at the hand-over. I might be looking at it for quite a bit. Need to go through the first batch, talk to the report owner about what I see and then see if I need more examples. Haven't quite fixed on the end date. Please let me know if you need an investigation schedule before the window of access is set up.",
+  "source_sha256": "8d40a28442575c92e012ea57356a5d39b5a5724dd8e85de65118bffbf269ea2d",
+  "required_evidence_terms": []
+}

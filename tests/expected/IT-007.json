@@ -1,0 +1,35 @@
+{
+  "document_id": "IT-007.json",
+  "extraction": {
+    "request_id": "IT-007",
+    "request_date": "2026-10-22",
+    "kind": "change",
+    "requester": "Grace Tan",
+    "team": "Developer Experience",
+    "system": "Forge",
+    "environment": "staging",
+    "permission": "write",
+    "business_purpose": "We're updating starter project templates, so i want to save our changes for the templates.",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-28",
+    "manager": "Nia Patel",
+    "supporting_quotes": [
+      "We're updating starter project templates, so i want to save our changes for the templates.",
+      "IT-007 2026-10-22 - Grace Tan / Developer Experience",
+      "current (read only) access to Forge (staging) and would like to transition to (write) from 2026-10-24 to 2026-10-28",
+      "My manager is Nia Patel."
+    ],
+    "issues": []
+  },
+  "status": "review",
+  "owner": "Security Review",
+  "next_action": "review-risk-then-owner",
+  "issue_categories": [],
+  "source_evidence": "| E07 / IT-007.json | request_id IT-007; kind change; requester Grace Tan; team Developer Experience; system Forge; environment staging; permission write; dates 2026-10-24 through 2026-10-28; manager Nia Patel; purpose “We're updating starter project templates, so i want to save our changes for the templates.”; route K; issues empty. | “IT-007 2026-10-22 - Grace Tan / Developer Experience”; “current (read only) access to Forge (staging) and would like to transition to (write) from 2026-10-24 to 2026-10-28”; “My manager is Nia Patel.”; quoted purpose; “For a change request, extract the requested new permission.”; rule 4. |",
+  "purpose_facts": [
+    "We're updating starter project templates, so i want to save our changes for the templates."
+  ],
+  "source_message": "IT-007 2026-10-22 - Grace Tan / Developer Experience\n\nI have current (read only) access to Forge (staging) and would like to transition to (write) from 2026-10-24 to 2026-10-28. My manager is Nia Patel.\n\nWe're updating starter project templates, so i want to save our changes for the templates. Also confirming example pipelines are still working.\n\nThe changes involve fixing the sample configuration + testing on a new project. I'll provide a summary of what templates were modified for the team. (so they can reference this during next onboarding session)",
+  "source_sha256": "dd4857323b83b418755981031c2798cd95c83703d09aa5457e3c8105afba646e",
+  "required_evidence_terms": []
+}

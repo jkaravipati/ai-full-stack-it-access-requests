@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-003.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-003\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Lina Gomez\", \"team\": \"Customer Success\", \"system\": \"Beacon\", \"environment\": null, \"permission\": null, \"business_purpose\": \"I'm trying to get the account notes together before we meet as a team.\", \"start_date\": null, \"end_date\": null, \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"I'm trying to get the account notes together before we meet as a team.\", \"this is Lina Gomez from Customer Success\", \"IT-003 on 2026-10-22\", \"I need new access to Beacon. The same access Sam has.\", \"My manager is Priya Shah.\", \"I didn't note what environment he was on or what the permission is named\"], \"issues\": [\"environment: missing.\", \"permission: missing.\", \"start_date: missing.\", \"end_date: missing.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"environment\", \"code\": \"missing\", \"supporting_quotes\": []}, {\"issue_index\": 1, \"field\": \"permission\", \"code\": \"missing\", \"supporting_quotes\": []}, {\"issue_index\": 2, \"field\": \"start_date\", \"code\": \"missing\", \"supporting_quotes\": []}, {\"issue_index\": 3, \"field\": \"end_date\", \"code\": \"missing\", \"supporting_quotes\": []}]}}"
+        }
+      ]
+    }
+  ]
+}

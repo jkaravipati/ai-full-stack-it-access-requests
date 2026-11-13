@@ -1,0 +1,18 @@
+{
+  "id": "mock-IT-011.json",
+  "status": "completed",
+  "model": "mock-model",
+  "output": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"extraction\": {\"request_id\": \"IT-011\", \"request_date\": \"2026-10-22\", \"kind\": \"new\", \"requester\": \"Zoe Adams\", \"team\": \"Research\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"business_purpose\": \"I'm looking at sample experiment records to get ready for our team walkthrough.\", \"start_date\": null, \"end_date\": null, \"manager\": \"Priya Shah\", \"supporting_quotes\": [\"I'm looking at sample experiment records to get ready for our team walkthrough.\", \"IT-011, 2026-10-22: Research (Zoe Adams)\", \"new read access to Atlas in staging for next Monday - Friday\", \"Priya Shah is my boss.\"], \"issues\": [\"start_date: relative date.\", \"end_date: relative date.\"]}, \"review_evidence\": {\"instruction_override_quotes\": [], \"issue_annotations\": [{\"issue_index\": 0, \"field\": \"start_date\", \"code\": \"relative_date\", \"supporting_quotes\": []}, {\"issue_index\": 1, \"field\": \"end_date\", \"code\": \"relative_date\", \"supporting_quotes\": []}]}}"
+        }
+      ]
+    }
+  ]
+}

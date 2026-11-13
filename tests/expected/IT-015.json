@@ -1,0 +1,36 @@
+{
+  "document_id": "IT-015.json",
+  "extraction": {
+    "request_id": "IT-015",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Mia Davis",
+    "team": "Learning",
+    "system": "Beacon",
+    "environment": "staging",
+    "permission": "read",
+    "business_purpose": "make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-31",
+    "manager": "Elena Park",
+    "supporting_quotes": [
+      "make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop",
+      "IT-015 2026-10-22. Mia Davis - Learning",
+      "new read access to Beacon in staging",
+      "My manager is Elena Park.",
+      "Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31."
+    ],
+    "issues": []
+  },
+  "status": "review",
+  "owner": "System Owner",
+  "next_action": "review-request",
+  "issue_categories": [],
+  "source_evidence": "| E15 / IT-015.json | request_id IT-015; kind new; requester Mia Davis; team Learning; system Beacon; environment staging; permission read; dates 2026-10-29 through 2026-10-31; manager Elena Park; purpose “make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop”; route S; corrected earlier dates are not unresolved. | “IT-015 2026-10-22. Mia Davis - Learning”; “new read access to Beacon in staging”; “My manager is Elena Park.”; “Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31.”; quoted purpose; correction rule and rule 5. |",
+  "purpose_facts": [
+    "make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop"
+  ],
+  "source_message": "IT-015 2026-10-22. Mia Davis - Learning: Please set new read access to Beacon in staging for the dates 2026-10-24 - 2026-10-26. My manager is Elena Park. I need to make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop. (Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31. The workshop has been rescheduled due to a trainer availability change. Otherwise everything the same in the request.) I'd like to get the examples verified before we print the handout, because we'd have to redo the layout if we had to switch out screenshots later.",
+  "source_sha256": "a8beef34c01e19d3192a97d81b7a9b1a076703733d842b2eb50b002c6723cd2d",
+  "required_evidence_terms": []
+}

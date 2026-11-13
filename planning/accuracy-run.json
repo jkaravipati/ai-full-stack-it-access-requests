@@ -1,0 +1,23 @@
+{
+  "scalar_total": 252,
+  "scalar_matches": 252,
+  "route_total": 63,
+  "route_matches": 63,
+  "scalar_discrepancies": [],
+  "route_discrepancies": [],
+  "structural_errors": [],
+  "quote_errors": [],
+  "issue_errors": [],
+  "factual_errors": [],
+  "purpose_review": {
+    "correct": 0,
+    "incorrect": 0,
+    "unassessed": 21,
+    "total": 21,
+    "reviewed": 0
+  },
+  "response_sources": [
+    "mock"
+  ],
+  "interpretation": "Mock agreement validates pipeline/comparison behavior, not live model accuracy."
+}

@@ -1,0 +1,24 @@
+test_T33_paraphrase_retains_source_grounded_facts (tests.test_08_accuracy.AccuracyTests.test_T33_paraphrase_retains_source_grounded_facts) ... ok
+test_T34_all_supplied_messages_match_independent_source_oracles (tests.test_08_accuracy.AccuracyTests.test_T34_all_supplied_messages_match_independent_source_oracles) ... ERROR
+test_T35_fixed_denominators_and_wording_not_automatically_factual_error (tests.test_08_accuracy.AccuracyTests.test_T35_fixed_denominators_and_wording_not_automatically_factual_error) ... ERROR
+
+======================================================================
+ERROR: test_T34_all_supplied_messages_match_independent_source_oracles (tests.test_08_accuracy.AccuracyTests.test_T34_all_supplied_messages_match_independent_source_oracles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_08_accuracy.py", line 22, in test_T34_all_supplied_messages_match_independent_source_oracles
+    from access_intake.accuracy import compare_records
+ModuleNotFoundError: No module named 'access_intake.accuracy'
+
+======================================================================
+ERROR: test_T35_fixed_denominators_and_wording_not_automatically_factual_error (tests.test_08_accuracy.AccuracyTests.test_T35_fixed_denominators_and_wording_not_automatically_factual_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_08_accuracy.py", line 35, in test_T35_fixed_denominators_and_wording_not_automatically_factual_error
+    from access_intake.accuracy import compare_records
+ModuleNotFoundError: No module named 'access_intake.accuracy'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.141s
+
+FAILED (errors=2)

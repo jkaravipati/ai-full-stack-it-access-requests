@@ -1,0 +1,34 @@
+{
+  "document_id": "IT-002.json",
+  "extraction": {
+    "request_id": "IT-002",
+    "request_date": "2026-10-22",
+    "kind": "new",
+    "requester": "Owen Reed",
+    "team": "Payments",
+    "system": "Ledger",
+    "environment": "production",
+    "permission": "write",
+    "business_purpose": "I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report.",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "manager": "Elena Park",
+    "supporting_quotes": [
+      "I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report.",
+      "Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production.",
+      "Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park."
+    ],
+    "issues": []
+  },
+  "status": "review",
+  "owner": "Security Review",
+  "next_action": "review-risk-then-owner",
+  "issue_categories": [],
+  "source_evidence": "| E02 / IT-002.json | request_id IT-002; kind new; requester Owen Reed; team Payments; system Ledger; environment production; permission write; dates 2026-10-24 through 2026-10-25; manager Elena Park; purpose “I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report.”; route K; issues empty. | “Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production.”; “Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.”; quoted purpose; rule 4. |",
+  "purpose_facts": [
+    "I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report."
+  ],
+  "source_message": "Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production. Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.\n\nWe have several settlement entries associated with the wrong reconciliation batch. Operations has prepared the replacement values. I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report. I'll be available later to review the changes with the team. It's for this particular cycle of reconciliations, so please make the temporary access during those times.",
+  "source_sha256": "007e47d1bd662d246e6d3656b6226b1c512ca4d38d71fc5844b9690ee29c14f6",
+  "required_evidence_terms": []
+}
