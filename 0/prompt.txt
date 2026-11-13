@@ -1,0 +1,1 @@
+please anylyze challenge.md , readme.md files and what are the requments and what is the implemnetation plan . add the resules in tablur form and in a sequnce and append at the end of development-log.md file
