@@ -1,0 +1,2 @@
+i would like to enable entire.io for codex for my project. I have already installed library https://docs.entire.com/quickstart
+please fix the problem.
