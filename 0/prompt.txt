@@ -1,0 +1,3 @@
+<codex_internal_context source="daemon_recovery">
+The server restarted and interrupted the previous turn. Continue the unfinished work from the saved conversation. Check the current state before repeating actions that may already have completed.
+</codex_internal_context>
