@@ -1,0 +1,1 @@
+please clean development-log.md keep only steps
