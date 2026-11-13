@@ -1,0 +1,1 @@
+we are in a directory whith my fork of project repo. I previously made commits to my fork relative to the upstream repo, and I don't want to loose those code. comit , but I need to start from scratch. So I would like you to migrate the commits I made to a seperate branch and reset the main branch what what exits in upstream repo.
